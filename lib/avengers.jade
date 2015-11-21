@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title marvel Game Card
+		link(rel="stylesheet",href="./public/css/app.css")
+	body	
+		section.Layout
+			section.Layout-main
+				.Layout-status
+				.Layout-battle
+					.Battle
+						-clase = ""
+						.Battle-antagonist
+						.Battle-player
+							each card in[1,2,3,4,5]
+								include card/template.jade
